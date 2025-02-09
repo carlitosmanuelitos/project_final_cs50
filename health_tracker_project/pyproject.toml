@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "health-tracker-project"
+version = "0.1.0"
+description = ""
+authors = ["Strix <miguelglopes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.6"
+psycopg2-binary = "^2.9.10"
+gunicorn = "^23.0.0"
+openai = "^1.61.1"
+django-environ = "^0.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
