@@ -9,7 +9,7 @@ The primary goal of this web app is to allow users to log their daily meals, tra
 
 ## Project Structure
 Here's a quick overview of the project directory:
-
+```
    health_tracker_project/
    ├── apps/                     # Custom Django apps (e.g., core, users)
    │   ├── core/                 # Core app with main functionalities
@@ -33,6 +33,7 @@ Here's a quick overview of the project directory:
    ├── pyproject.toml           # Poetry project configuration
    ├── README.md                # Project documentation
    └── manage.py                # Django management script
+```
 
 ## Technical Stack
 
