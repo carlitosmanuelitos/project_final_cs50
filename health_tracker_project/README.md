@@ -9,30 +9,30 @@ The primary goal of this web app is to allow users to log their daily meals, tra
 
 ## Project Structure
 Here's a quick overview of the project directory:
-health_tracker_project/
-│
-├── apps/                     # Custom Django apps (e.g., core, users)
-│   ├── core/                 # Core app with main functionalities
-│   ├── users/                # User-related functionality (authentication, profiles)
-│
-├── health_tracker/           # Main project directory
-│   ├── init.py          # Project initialization
-│   ├── settings.py          # Django settings
-│   ├── urls.py              # URL routing
-│   ├── wsgi.py              # WSGI entry point
-│
-├── static/                   # Static files (CSS, JS, images)
-│   ├── css/                 # Tailwind CSS styles
-│   ├── js/                  # JavaScript files
-│   └── images/              # Image assets
-│
-├── templates/                # HTML templates for rendering views
-│   ├── base.html            # Base template for the application
-│
-├── .gitignore               # Git ignore rules
-├── pyproject.toml           # Poetry project configuration
-├── README.md                # Project documentation
-└── manage.py                # Django management script
+
+   health_tracker_project/
+   ├── apps/                     # Custom Django apps (e.g., core, users)
+   │   ├── core/                 # Core app with main functionalities
+   │   └── users/                # User-related functionality (authentication, profiles)
+   │
+   ├── health_tracker/           # Main project directory
+   │   ├── __init__.py          # Project initialization
+   │   ├── settings.py          # Django settings
+   │   ├── urls.py              # URL routing
+   │   └── wsgi.py              # WSGI entry point
+   │
+   ├── static/                   # Static files (CSS, JS, images)
+   │   ├── css/                 # Tailwind CSS styles
+   │   ├── js/                  # JavaScript files
+   │   └── images/              # Image assets
+   │
+   ├── templates/                # HTML templates for rendering views
+   │   └── base.html            # Base template for the application
+   │
+   ├── .gitignore               # Git ignore rules
+   ├── pyproject.toml           # Poetry project configuration
+   ├── README.md                # Project documentation
+   └── manage.py                # Django management script
 
 ## Technical Stack
 
