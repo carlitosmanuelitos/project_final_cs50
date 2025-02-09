@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "apps.core",  # Add your apps.core app
+    "apps.users",  # Add your apps.users app
 ]
 
 MIDDLEWARE = [
@@ -54,8 +56,8 @@ ROOT_URLCONF = "health_tracker.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
-        "APP_DIRS": True,
+        "DIRS": [BASE_DIR / "templates"], # Specifies the location of the templates folder
+        "APP_DIRS": True, # Ensures templates within each app's "templates" folder are found
         "OPTIONS": {
             "context_processors": [
                 "django.template.context_processors.debug",
