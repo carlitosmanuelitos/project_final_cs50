@@ -2,7 +2,7 @@ import os
 
 def list_directory_structure(base_path, exclude_dirs=None):
     if exclude_dirs is None:
-        exclude_dirs = {'.venv', 'tests'}
+        exclude_dirs = {'.venv', 'tests', 'node_modules','__pycache__'}
     
     directory_structure = {}
 
